@@ -1,0 +1,738 @@
+/* Applying Clearfix Technique */
+.clearFix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+html * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ********************************************** Default Desktop Width ********************************************** */
+
+/* Website Header Starts Here */
+#customNav {
+    border: 0;
+    font-family: 'Poppins';
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+}
+ 
+#customNav .customBrand {
+    position: relative;
+    top: 10px;
+}
+
+#customNav .active a {
+    background: none;
+}
+
+#customNav .navMenu {
+   margin-top: 15px;
+}
+
+#customNav .navMenu a {
+    font-size: 18px;
+    color: black;
+    transition-duration: 400ms;
+}
+
+#customNav .navMenu a:hover {
+    text-shadow: 5px 5px 7px rgb(255, 196, 0);
+}
+
+#customNav .navMenu li {
+    margin-left: 20px;
+}
+
+#customNav .navMenu .signIn {
+    background-color: rgb(255, 196, 0);
+    border-radius: 50px;
+    padding: 0 20px;
+}
+
+header {
+    background-image: url(../../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Righteous';
+    color: white;
+    padding: 100px 0 250px 0;
+    margin-top: 80px;
+}
+
+header .heading1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+header .heading2 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+header .heading3 {
+    font-size: 40px;
+    color: rgb(255, 196, 0);
+}
+
+header p {
+    font-family: 'Poppins';
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+header button {
+    border: 0;
+    color: black;
+    width: 170px;
+    font-size: 17px;
+    height: 50px;
+    margin-top: 30px;
+    transition-duration: 400ms;
+}
+
+header button:hover {
+    background-color: rgb(255, 196, 0);
+    border-radius: 30px;
+}
+/* Website Header Ends Here */
+
+/* ................................................................................................................. */
+
+/* Website Body Starts Here */
+/* Section 1 Starts here */
+#sec1 {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+#sec1 .heading h2 {
+    font-size: 50px;
+    font-family: 'Righteous';
+}
+
+#sec1 .heading p {
+    font-size: 17px;
+    font-family: 'Poppins';
+    margin-top: 30px;
+}
+
+#sec1 .cars {
+    margin-top: 40px;
+}
+
+#sec1 .cars img {
+    width: 100%;
+}
+
+#sec1 .cars h3 {
+    font-family: 'Righteous';
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: rgb(255, 196, 0);
+    padding: 20px 0;
+}
+/* Section 1 Ends here */
+
+/* Section 2 Starts Here */
+#sec2 {
+    background-image: url(../../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+#sec2 h2 {
+    background-color: rgba(255, 255, 255, 0.664);
+    float: right;
+    width: 550px;
+    padding: 50px;
+    padding-bottom: 0;
+    font-family: 'Righteous';
+    text-align: center;
+    font-size: 35px;
+}
+
+#sec2 form {
+    background-color: rgba(255, 255, 255, 0.664);
+    float: right;
+    clear: right;
+    width: 550px;
+    padding: 0 50px 50px;
+}
+
+#sec2 .form-group {
+    margin-top: 50px;
+}
+
+#sec2 select {
+    height: 60px;
+    border-radius: 0;
+    border: 2px solid rgb(168, 167, 167);
+    color: grey;
+    font-family: 'Poppins';
+    font-size: 17px;
+    width: 100%;
+}
+
+#sec2 input {
+    height: 60px;
+    border-radius: 0;
+    border: 2px solid rgb(168, 167, 167);
+    color: grey;
+    font-family: 'Poppins';
+    font-size: 17px;
+    width: 100%;
+}
+
+#sec2 button {
+    background-color: black;
+    border: 0;
+    color: white;
+    width: 170px;
+    font-size: 17px;
+    height: 50px;
+    margin-top: 30px;
+    transition-duration: 400ms;
+    font-family: 'Righteous';
+}
+
+#sec2 button:hover {
+    background-color: rgb(255, 196, 0);
+    border-radius: 30px;
+    color: black;
+}
+/* Section 2 Ends Here */
+
+/* Section 3 Starts Here */
+#sec3 {
+    margin-top: 100px;
+}
+
+#sec3 p {
+    font-family: 'Poppins';
+}
+
+#sec3 .heading h2 {
+    font-size: 50px;
+    font-family: 'Righteous';
+}
+
+#sec3 .heading p {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#sec3 .box  {
+    margin-top: 50px;
+}
+
+#sec3 .box span {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 5px solid rgb(255, 196, 0);
+    padding: 25px 28px;
+    border-radius: 100%;
+}
+
+#sec3 .box p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+    word-spacing: 2px;
+    line-height: 26px;
+}
+/* Section 3 Ends Here */
+
+/* Section 4 Starts Here */
+#sec4 {
+    background-color: rgb(32, 32, 32);
+    margin-top: 100px;
+    padding: 70px 0 100px 0;
+}
+
+#sec4 h2 {
+    font-size: 50px;
+    font-family: 'Righteous';
+    color: white;
+}
+
+#sec4 #customerExp .person {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+}
+
+#sec4 #customerExp .box {
+    background-color: white;
+    padding: 80px 80px 60px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 100px 0 100px 0;
+}
+
+#sec4 #customerExp .carousel-indicators {
+    /* top: 585px; */
+    bottom: -50px;
+    z-index: 0;
+}
+
+#sec4 #customerExp .carousel-indicators li {
+    width: 40px;
+    background-color: white;
+    border-radius: 0px;
+    margin-left: 10px;
+}
+
+#sec4 #customerExp .carousel-indicators .active {
+    background-color: rgb(255, 196, 0);
+    border: 0;
+}
+
+#sec4 #customerExp .carousel-indicators .disableMargin {
+    margin: 0;
+}
+
+#sec4 #customerExp h3 {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+#sec4 #customerExp .rental {
+    color: rgb(255, 196, 0);
+    margin-top: 10px;
+}
+
+#sec4 #customerExp p {
+    margin-top: 10px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 27px;
+    word-spacing: 2px;
+}
+
+#sec4 #customerExp .quote {
+    margin-top: 30px;
+}
+
+#sec4 #customerExp .carousel-control {
+    opacity: 0;
+}
+/* Section 4 Ends Here */
+/* Website Body Ends Here */
+
+/* ................................................................................................................. */
+
+/* Website Footer Starts Here */
+footer {
+    margin-top: 100px;
+    width: 100%;
+}
+
+footer .contact {
+    font-family: 'Righteous';
+}
+
+footer .contact h3 {
+    font-size: 35px;
+}
+
+footer .contact h2 {
+    font-size: 50px;
+    margin-top: 20px;
+    color: gray;
+}
+
+footer .contact .landingPage {
+    margin-top: 30px;
+}
+
+footer .contact .yellow {
+    color: rgb(255, 196, 0);
+}
+
+footer p {
+    background-color: rgb(32, 32, 32);
+    color: lightgray;
+    margin-top: 50px;
+    padding: 20px 0;
+    font-size: 17px;
+}
+/* Website Footer Ends Here */
+
+
+
+/* ********************************************** Media Queries ********************************************** */
+
+/* Media Queries For Tablet Devices */
+@media only screen and (max-width: 990px) {
+    /* Website Header Starts Here #_Tablet_Devices */
+    #customNav {
+        position: relative;
+        z-index: 0;
+        margin: 0;
+    }
+
+    header {
+        margin: 0;
+    }
+    
+    header .heading1 {
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    header .heading2 {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    header .heading3 {
+        font-size: 30px;
+    }
+
+    header button {
+        background-color: rgb(255, 196, 0);
+        border-radius: 30px;
+    }
+    /* Website Header Ends Here #_Tablet_Devices */
+
+    /* Website Body Starts Here #_Tablet_Devices */
+    /* Section 1 Starts here #_Tablet_Devices */
+    #sec1 .heading h2 {
+        font-size: 40px;
+    }
+
+    #sec1 .cars h3 {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    #sec1 .cars {
+        margin: 0;
+    }
+
+    #sec1 .cars img {
+        max-width: 300px;
+    }
+
+    #sec1 .cars .carBox {
+        margin-top: 40px;
+    }
+
+    #sec1 .cars .disableMargin {
+        margin: 0;
+    }
+    /* Section 1 Ends here #_Tablet_Devices */
+
+    /* Section 2 Starts Here #_Tablet_Devices */
+    #sec2 {
+        background-position: center;
+    }
+
+    #sec2 h2, #sec2 form {
+        float: none;
+        clear: none;
+        padding-top: 50px; 
+        margin: 0 auto;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #sec2 .disableMargin {
+        margin: 0;
+    }
+    /* Section 2 Ends Here #_Tablet_Devices */
+
+    /* Section 3 Starts Here #_Tablet_Devices */
+    #sec3 .heading h2 {
+        font-size: 40px;
+    }
+    /* Section 3 Ends Here #_Tablet_Devices */
+
+    /* Section 4 Starts Here #_Tablet_Devices */
+    #sec4 h2 {
+        font-size: 40px;;
+    }
+
+    #sec4 #customerExp .box {
+        padding: 80px 30px 60px;
+        border-radius: 100px 0 100px 0;
+    }
+    /* Section 4 Ends Here #_Tablet_Devices */
+    /* Website Body Ends Here #_Tablet_Devices */
+
+    /* Website Footer Starts Here #_Tablet_Devices */
+    footer .contact h3 {
+        font-size: 25px;
+    }
+    
+    footer .contact h2 {
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    
+    footer .contact .landingPage {
+        margin-top: 20px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+    /* Website Footer Ends Here #_Tablet_Devices */
+}
+
+
+/* Media Queries For Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* Website Header Starts Here #_Mobile_Devices */
+    #customNav {
+        height: 70px;
+    }
+
+    #customNav .navbar-header button {
+        margin-top: 20px;
+        border-radius: 0;
+    }
+
+    #customNav .navbar-header {
+        height: 70px;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+
+    #customNav .navbar-header button span {
+        background-color: black;
+        height: 4px;
+    }
+
+    #customNav .navMenu {
+        margin: 10px 5%;
+        box-sizing: content-box;
+        padding: 20px 0;
+        background-color: rgba(255, 255, 255, 0.658);
+    }
+
+    #customNav .navMenu li {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #customNav .navMenu .signIn {
+        border-radius: 0;
+        border-top: 2px solid black;
+        background: none;
+        padding-top: 20px;
+    }
+
+    #customNav .navMenu .signIn a {
+        border-radius: 50px;
+        background-color: black;
+        color: rgb(255, 196, 0);
+        max-width: 150px;
+        display: inline-block;
+    }
+
+    header {
+        background-position: center top;
+    }
+
+    header .container {
+        margin-top: 200px;
+    }
+
+    header .heading1 {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    header .heading2 {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    header .heading3 {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+    header button {
+        width: 90%;
+        height: 40px;
+        margin-top: 30px;
+        background-color: rgb(255, 196, 0);
+        border-radius: 30px;
+    }
+    /* Website Header Ends Here #_Mobile_Devices */
+
+    /* Website Body Starts Here #_Mobile_Devices */
+    /* Section 1 Starts here #_Mobile_Devices */
+    #sec1 {
+        margin-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #sec1 .heading h2 {
+        font-size: 30px;
+    }
+
+    #sec1 .heading p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    /* Section 1 Ends here #_Mobile_Devices */
+
+    /* Section 2 Starts Here #_Mobile_Devices */
+    #sec2 {
+        padding: 80px 0;
+    }
+
+    #sec2 h2 {
+        font-size: 25px;
+    }
+
+    #sec2 form {
+        padding: 30px 10px;
+    }
+
+    #sec2 .form-group {
+        margin-top: 30px;
+    }
+    
+    #sec2 select {
+        padding: 0;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    #sec2 input {
+        padding: 0;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    #sec2 button {
+        width: 90%;
+        height: 40px;
+        margin-top: 30px;
+        background-color: rgb(255, 196, 0);
+        border-radius: 30px;
+        color: black;
+    }
+    /* Section 2 Ends Here #_Mobile_Devices */
+
+    /* Section 3 Starts Here #_Mobile_Devices */
+    #sec3 {
+        margin-top: 60px;
+    }
+
+    #sec3 .box span {
+        font-size: 17px;
+        padding: 20px 23px;
+    }
+
+    #sec3 .heading h2 {
+        font-size: 30px;
+    }
+
+    #sec3 .heading p {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    
+    #sec3 .box  {
+        margin-top: 40px;
+    }
+
+    #sec3 .box p {
+        font-size: 13px;
+        margin-top: 10px;
+        word-spacing: 2px;
+        line-height: 20px;
+    }
+    /* Section 3 Ends Here #_Mobile_Devices */
+
+    /* Section 4 Starts Here #_Mobile_Devices */
+    #sec4 {
+        margin-top: 60px;
+        padding: 50px 0 70px 0;
+    }
+
+    #sec4 h2 {
+        font-size: 30px;
+    }
+
+    #sec4 #customerExp .person {
+        max-width: 130px;
+        top: 40px;
+    }
+
+    #sec4 #customerExp .box {
+        padding: 50px 5% 40px;
+        /* width: 100%; */
+        border-radius: 0;
+    }
+
+    #sec4 #customerExp h3 {
+        font-size: 17px;
+    }
+
+    #sec4 #customerExp .rental {
+        margin-top: 5px;
+    }    
+
+    #sec4 #customerExp p {
+        font-size: 15px;
+        line-height: 23px;
+        word-spacing: 1px;
+    }
+
+    #sec4 #customerExp .quote {
+        margin-top: 20px;
+        max-width: 30px;
+    }
+    /* Section 4 Ends Here #_Mobile_Devices */
+    /* Website Body Ends Here #_Mobile_Devices */
+
+    /* Website Footer Starts Here #_Mobile_Devices */
+    footer {
+        margin-top: 60px;
+    }
+
+    footer .contact h3 {
+        font-size: 20px;
+    }
+    
+
+    footer .contact h2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    footer .contact .landingPage {
+        margin-top: 15px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+    /* Website Footer Ends Here #_Mobile_Devices */
+}
